@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ContadorModule } from './contadores/contador.modules';
+import { DbzModule } from './dbz/dbz.module';
 import { HeroesModule } from './heroes/heroes.modules';
 
 @NgModule({
@@ -13,6 +14,7 @@ import { HeroesModule } from './heroes/heroes.modules';
     BrowserModule,
     HeroesModule,
     ContadorModule,
+    DbzModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
